@@ -1,11 +1,11 @@
 {
-  "name": "clear-sintax",
-  "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
-  "repository": "https://github.com/atom/clear-sintax",
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.50.0"
-  }
+    "name": "clear-sintax",
+    "theme": "syntax",
+    "version": "0.0",
+    "description": "A short description of your syntax theme",
+    "repository": "https://github.com/KeitIG/clear-sintax",
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    }
 }
