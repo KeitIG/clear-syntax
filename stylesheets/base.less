@@ -81,10 +81,10 @@
 }
 
 .keyword {
-    color: @purple;
+    color: @clear-lighter-blue;
 
     &.control {
-        color: @purple;
+        color: @clear-lighter-blue;
     }
 
     &.operator {
@@ -101,7 +101,11 @@
 }
 
 .storage {
-    color: @purple;
+    color: @white;
+
+    &.function {
+        color: @clear-blue;
+    }
 }
 
 .constant {
@@ -164,7 +168,10 @@
             color: @light-gray;
         }
 
-        &.string,
+        &.string{
+            color: @yellow;
+        }
+
         &.variable,
         &.parameters,
         &.array {
@@ -182,7 +189,7 @@
         }
 
         &.italic {
-            color: @purple;
+            color: @white;
             font-style: italic;
         }
     }
@@ -213,7 +220,7 @@
     }
 
     &.name.class, &.name.type.class {
-        color: @light-orange;
+        color: @clear-blue;
     }
 
     &.name.section {
@@ -248,7 +255,7 @@
     }
 
     &.selector {
-        color: @purple;
+        color: @white;
     }
 
     &.separator {
@@ -268,7 +275,7 @@
     }
 
     &.changed {
-        color: @purple;
+        color: @white;
     }
 
     &.deleted {
@@ -276,7 +283,7 @@
     }
 
     &.italic {
-        color: @purple;
+        color: @white;
         font-style: italic;
     }
 
