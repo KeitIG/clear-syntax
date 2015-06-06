@@ -1,9 +1,9 @@
 {
-    "name": "clear-sintax",
+    "name": "clear-syntax",
     "theme": "syntax",
     "version": "0.1",
     "description": "A clear and readable syntax for Atom editor",
-    "repository": "https://github.com/KeitIG/clear-sintax",
+    "repository": "https://github.com/KeitIG/clear-syntax",
     "license": "MIT",
     "engines": {
         "atom": ">0.50.0"
